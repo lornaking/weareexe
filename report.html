@@ -169,41 +169,46 @@
 
     /* ── Profile ── */
     .profile-section { background: #f6f8ef; }
+    .profiles {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
     .profile {
       display: flex;
-      gap: 2.5rem;
+      gap: 1.5rem;
       align-items: flex-start;
     }
     .avatar {
       flex-shrink: 0;
-      width: 120px;
-      height: 120px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
       background: #e8430b;
       color: #fff;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 2rem;
+      font-size: 1.3rem;
       font-weight: 700;
       letter-spacing: 0.05em;
     }
     .profile-text h3 {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       font-weight: 700;
       color: #000000;
       margin-bottom: 0.25rem;
     }
     .profile-role {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #e8430b;
       font-weight: 600;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
     }
     .profile-bio {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: #555;
-      max-width: 540px;
+      line-height: 1.6;
     }
 
     /* ── Form ── */
@@ -292,8 +297,8 @@
     /* ── Responsive ── */
     @media (max-width: 768px) {
       .nav-links { display: none; }
+      .profiles { grid-template-columns: 1fr; }
       .profile { flex-direction: column; align-items: center; text-align: center; }
-      .profile-bio { max-width: 100%; }
       .form-grid { grid-template-columns: 1fr; }
       .form-group.full { grid-column: auto; }
     }
@@ -366,12 +371,22 @@
     <div class="container">
       <p class="section-label">About the research</p>
       <h2 class="section-title">Behind the GCC People Pulse</h2>
-      <div class="profile">
-        <div class="avatar">LC</div>
-        <div class="profile-text">
-          <h3>Lorna Cole</h3>
-          <p class="profile-role">Co-Founder, EXE: Employee Experience Exchange</p>
-          <p class="profile-bio">Lorna Cole is co-founder of EXE: Employee Experience Exchange, a research and insight consultancy working with organisations across the GCC. Alongside co-founder Ruth, Lorna leads the GCC People Pulse — the region's first monthly workforce sentiment tracker — developed in partnership with Ipsos in the Middle East.</p>
+      <div class="profiles">
+        <div class="profile">
+          <div class="avatar">LC</div>
+          <div class="profile-text">
+            <h3>Lorna Cole</h3>
+            <p class="profile-role">Co-Founder, EXE: Employee Experience Exchange</p>
+            <p class="profile-bio">Lorna is a workplace culture and communications expert with 15 years of experience in the Middle East. Since 2012, she has helped organisations including Cleveland Clinic Abu Dhabi, ADNOC and UAE government entities create purpose-driven cultures where people thrive. An ICF-certified coach, Lorna combines expertise in strategy, storytelling, facilitation and leadership development to translate strategy and values into intentional employee experiences.</p>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="avatar">RD</div>
+          <div class="profile-text">
+            <h3>Ruth Dance</h3>
+            <p class="profile-role">Co-Founder, EXE: Employee Experience Exchange</p>
+            <p class="profile-bio">Ruth is a respected voice in workplace culture and experience, with a track record of helping leaders make employee experience a strategic driver of performance. She has partnered with major brands including BP, Co-op and Aviva, guiding organisations through complex change with clarity, empathy and commercial rigour. Ruth is known for bridging the gap between customer and employee experience with ambition and execution.</p>
+          </div>
         </div>
       </div>
     </div>
