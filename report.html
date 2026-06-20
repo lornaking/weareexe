@@ -25,10 +25,10 @@
       height: 64px;
     }
     .logo {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #e8430b;
-      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      flex-shrink: 0;
     }
     .nav-links {
       display: flex;
@@ -307,11 +307,31 @@
 <body>
 
   <nav>
-    <span class="logo">Lorna Cole</span>
+    <a href="https://weareexe.com" class="logo" aria-label="EXE home">
+      <svg width="54" height="38" viewBox="0 0 168 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="168" height="120" fill="#e8430b"/>
+        <!-- E -->
+        <rect x="6" y="8" width="13" height="104" fill="white"/>
+        <rect x="6" y="8" width="40" height="17" fill="white"/>
+        <rect x="6" y="51" width="34" height="17" fill="white"/>
+        <rect x="6" y="95" width="40" height="17" fill="white"/>
+        <!-- X -->
+        <polygon points="58,8 76,8 112,112 94,112" fill="white"/>
+        <polygon points="112,8 94,8 58,112 76,112" fill="white"/>
+        <!-- Ǝ (mirrored E) -->
+        <rect x="149" y="8" width="13" height="104" fill="white"/>
+        <rect x="122" y="8" width="40" height="17" fill="white"/>
+        <rect x="128" y="51" width="34" height="17" fill="white"/>
+        <rect x="122" y="95" width="40" height="17" fill="white"/>
+      </svg>
+    </a>
     <ul class="nav-links">
-      <li><a href="#findings">Research</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#download">Download</a></li>
+      <li><a href="https://weareexe.com">EXE</a></li>
+      <li><a href="https://weareexe.com/our-services">Our Services</a></li>
+      <li><a href="https://weareexe.com/events">Events</a></li>
+      <li><a href="https://weareexe.com/our-partners">Our Partners</a></li>
+      <li><a href="https://weareexe.com/our-team">Our Team</a></li>
+      <li><a href="https://weareexe.com/our-community">Our Community</a></li>
     </ul>
   </nav>
 
