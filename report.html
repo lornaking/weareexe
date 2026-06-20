@@ -16,11 +16,12 @@
 
     /* ── Nav ── */
     nav {
-      background: #fff;
+      background: #f6f8ef;
       border-bottom: 1px solid #e4e8dc;
       padding: 0 2rem;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       height: 64px;
     }
     .logo {
@@ -29,6 +30,20 @@
       color: #e8430b;
       letter-spacing: -0.02em;
     }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #2c2c2c;
+      text-decoration: none;
+      letter-spacing: 0.01em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #e8430b; }
 
     /* ── Hero ── */
     .hero {
@@ -256,8 +271,27 @@
     }
     footer strong { color: #fff; }
 
+    /* ── Red hero variant ── */
+    .hero-red {
+      background: #e8430b;
+    }
+    .hero-red::before,
+    .hero-red::after { display: none; }
+    .hero-red h1 { color: #fff; }
+    .hero-red p { color: rgba(255,255,255,0.85); }
+    .hero-red .hero-eyebrow { color: rgba(255,255,255,0.7); }
+    .hero-red .btn {
+      background: #fff;
+      color: #e8430b;
+    }
+    .hero-red .btn:hover {
+      background: rgba(255,255,255,0.9);
+      color: #a7002d;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 768px) {
+      .nav-links { display: none; }
       .profile { flex-direction: column; align-items: center; text-align: center; }
       .profile-bio { max-width: 100%; }
       .form-grid { grid-template-columns: 1fr; }
@@ -269,9 +303,24 @@
 
   <nav>
     <span class="logo">Lorna Cole</span>
+    <ul class="nav-links">
+      <li><a href="#findings">Research</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#download">Download</a></li>
+    </ul>
   </nav>
 
-  <!-- Hero -->
+  <!-- Hero (red) -->
+  <div class="hero hero-red">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Leadership Research Report</p>
+      <h1>The Six Shifts: What&nbsp;&ldquo;Better&rdquo; Leadership Really Means</h1>
+      <p>Explore the findings from our research into the skills, mindsets, and behaviours that define exceptional leadership today.</p>
+      <a href="#download" class="btn">Get the report</a>
+    </div>
+  </div>
+
+  <!-- Hero (cream) -->
   <div class="hero">
     <div class="hero-inner">
       <p class="hero-eyebrow">Leadership Research Report</p>
@@ -282,7 +331,7 @@
   </div>
 
   <!-- Key Findings -->
-  <section class="findings">
+  <section class="findings" id="findings">
     <div class="container">
       <p class="section-label">Key discoveries</p>
       <h2 class="section-title">What the research revealed</h2>
@@ -313,7 +362,7 @@
   </section>
 
   <!-- Author Profile -->
-  <section class="profile-section">
+  <section class="profile-section" id="about">
     <div class="container">
       <p class="section-label">About the author</p>
       <h2 class="section-title">Meet the researcher</h2>
