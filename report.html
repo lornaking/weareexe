@@ -266,6 +266,17 @@
     }
     .btn-submit:hover { background: #a7002d; }
 
+    /* ── Form states ── */
+    .form-error {
+      color: #a7002d;
+      font-size: 0.9rem;
+      margin-top: 0.75rem;
+    }
+    #download-success { display: none; }
+    .download-cta {
+      margin-top: 2rem;
+    }
+
     /* ── Community band ── */
     .community-band {
       background: #0f1015;
@@ -465,8 +476,8 @@
     <div class="container">
       <p class="section-label">Download</p>
       <h2 class="section-title">Get the Wave 01 Report</h2>
-      <p class="section-intro">Fill in your details below and we'll send you the complete Wave 01 findings straight to your inbox.</p>
-      <form action="#" method="post">
+      <p class="section-intro">Fill in your details below to get instant access to the complete Wave 01 findings.</p>
+      <form id="report-form">
         <div class="form-grid">
           <div class="form-group">
             <label for="first-name">First name</label>
@@ -491,10 +502,19 @@
         </div>
         <div class="consent">
           <input type="checkbox" id="gdpr" name="gdpr" required>
-          <label for="gdpr">I agree to receive communications from Lorna Cole. You can unsubscribe at any time. View our <a href="#">privacy policy</a>.</label>
+          <label for="gdpr">I agree to receive communications from EXE. You can unsubscribe at any time. View our <a href="#">privacy policy</a>.</label>
         </div>
         <button type="submit" class="btn-submit">Download the report</button>
+        <p class="form-error" id="form-error" style="display:none">Something went wrong — please try again.</p>
       </form>
+
+      <div id="download-success">
+        <p class="section-label">You're in</p>
+        <h3 class="section-title">Your report is ready</h3>
+        <p style="margin-bottom:2rem;color:#555;max-width:480px">Thank you for your interest in the GCC People Pulse. Click below to download the Wave 01 report.</p>
+        <!-- Update this href when you upload the PDF to Cloudflare Pages -->
+        <a href="/gcc-people-pulse-wave-01.pdf" class="btn" download>Download Wave 01 PDF</a>
+      </div>
     </div>
   </section>
 
@@ -544,5 +564,43 @@
     </div>
   </footer>
 
+  <script>
+    (function () {
+      const form = document.getElementById('report-form');
+      const success = document.getElementById('download-success');
+      const errorEl = document.getElementById('form-error');
+      const btn = form.querySelector('.btn-submit');
+
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+        errorEl.style.display = 'none';
+
+        const body = {
+          first_name: form.first_name.value.trim(),
+          last_name: form.last_name.value.trim(),
+          email: form.email.value.trim(),
+          company: form.company.value.trim(),
+          job_title: form.job_title.value.trim(),
+        };
+
+        try {
+          const res = await fetch('/submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body),
+          });
+          if (!res.ok) throw new Error('Server error');
+          form.style.display = 'none';
+          success.style.display = 'block';
+        } catch {
+          btn.disabled = false;
+          btn.textContent = 'Download the report';
+          errorEl.style.display = 'block';
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
