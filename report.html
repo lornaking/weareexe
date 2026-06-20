@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Six Shifts: What Better Leadership Really Means</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      color: #2c2c2c;
+      background: #faf7f4;
+      line-height: 1.6;
+    }
+
+    /* ── Nav ── */
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #e8e2da;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      height: 64px;
+    }
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #2a7c8a;
+      letter-spacing: -0.02em;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: #f5f0eb;
+      position: relative;
+      overflow: hidden;
+      padding: 80px 2rem 100px;
+      text-align: center;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px;
+      right: -80px;
+      width: 360px;
+      height: 360px;
+      background: linear-gradient(135deg, #2a7c8a22, #4aada022);
+      border-radius: 50%;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -60px;
+      left: -60px;
+      width: 240px;
+      height: 240px;
+      background: linear-gradient(135deg, #4aada022, #2a7c8a11);
+      border-radius: 50%;
+    }
+    .hero-inner {
+      position: relative;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .hero-eyebrow {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #2a7c8a;
+      margin-bottom: 1rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      color: #1a1a1a;
+      margin-bottom: 1.25rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 560px;
+      margin: 0 auto 2rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #2a7c8a;
+      color: #fff;
+      padding: 0.85rem 2rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #215f6b; }
+
+    /* ── Section wrapper ── */
+    section { padding: 80px 2rem; }
+    .container { max-width: 960px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #2a7c8a;
+      margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+    }
+    .section-intro {
+      font-size: 1.05rem;
+      color: #555;
+      max-width: 600px;
+      margin-bottom: 3rem;
+    }
+
+    /* ── Findings cards ── */
+    .findings { background: #fff; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #faf7f4;
+      border: 1px solid #ede8e1;
+      border-radius: 8px;
+      padding: 1.75rem 1.5rem;
+    }
+    .card-icon {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    /* ── Profile ── */
+    .profile-section { background: #f5f0eb; }
+    .profile {
+      display: flex;
+      gap: 2.5rem;
+      align-items: flex-start;
+    }
+    .avatar {
+      flex-shrink: 0;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: #2a7c8a;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .profile-text h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 0.25rem;
+    }
+    .profile-role {
+      font-size: 0.9rem;
+      color: #2a7c8a;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .profile-bio {
+      font-size: 0.95rem;
+      color: #555;
+      max-width: 540px;
+    }
+
+    /* ── Form ── */
+    .form-section { background: #fff; }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+    .form-group.full { grid-column: 1 / -1; }
+    label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #444;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      padding: 0.65rem 0.85rem;
+      border: 1px solid #d5cfc7;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      background: #faf7f4;
+      color: #2c2c2c;
+      transition: border-color 0.2s;
+    }
+    input:focus {
+      outline: none;
+      border-color: #2a7c8a;
+    }
+    .consent {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin: 1.25rem 0 1.5rem;
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.5;
+    }
+    .consent input { margin-top: 3px; flex-shrink: 0; }
+    .btn-submit {
+      background: #2a7c8a;
+      color: #fff;
+      border: none;
+      padding: 0.85rem 2.25rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.2s;
+    }
+    .btn-submit:hover { background: #215f6b; }
+
+    /* ── Footer ── */
+    footer {
+      background: #1a2e32;
+      color: #a8bfc2;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+    footer strong { color: #fff; }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .profile { flex-direction: column; align-items: center; text-align: center; }
+      .profile-bio { max-width: 100%; }
+      .form-grid { grid-template-columns: 1fr; }
+      .form-group.full { grid-column: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="logo">Lorna Cole</span>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Leadership Research Report</p>
+      <h1>The Six Shifts: What&nbsp;&ldquo;Better&rdquo; Leadership Really Means</h1>
+      <p>Explore the findings from our research into the skills, mindsets, and behaviours that define exceptional leadership today.</p>
+      <a href="#download" class="btn">Get the report</a>
+    </div>
+  </div>
+
+  <!-- Key Findings -->
+  <section class="findings">
+    <div class="container">
+      <p class="section-label">Key discoveries</p>
+      <h2 class="section-title">What the research revealed</h2>
+      <p class="section-intro">Drawing on insights from over 350 leaders across industries, our research identified four recurring themes that separate good leaders from great ones.</p>
+      <div class="cards">
+        <div class="card">
+          <span class="card-icon">🧠</span>
+          <h3>Skills &amp; Mindsets</h3>
+          <p>The most effective leaders combine technical competence with a growth-oriented mindset that welcomes uncertainty.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">🔄</span>
+          <h3>Six Critical Shifts</h3>
+          <p>Six distinct behavioural shifts consistently distinguish high-performing leaders from their peers across all sectors.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">🌍</span>
+          <h3>Research Scope</h3>
+          <p>Participants spanned multiple industries, geographies, and seniority levels, giving a rich, cross-sector perspective.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">📊</span>
+          <h3>Data Insights</h3>
+          <p>Quantitative analysis surfaced significant variations by gender, region, and role — with implications for L&amp;D strategy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Author Profile -->
+  <section class="profile-section">
+    <div class="container">
+      <p class="section-label">About the author</p>
+      <h2 class="section-title">Meet the researcher</h2>
+      <div class="profile">
+        <div class="avatar">LC</div>
+        <div class="profile-text">
+          <h3>Lorna Cole</h3>
+          <p class="profile-role">Executive Coach &amp; Leadership Researcher</p>
+          <p class="profile-bio">Lorna Cole is an experienced executive coach and leadership specialist with over two decades of experience working with senior leaders across the private and public sectors. Her research focuses on the practical behaviours that drive genuine leadership improvement, moving beyond theory to what actually works in organisations today.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Form -->
+  <section class="form-section" id="download">
+    <div class="container">
+      <p class="section-label">Download</p>
+      <h2 class="section-title">Get the full report</h2>
+      <p class="section-intro">Fill in your details below and we'll send you the complete research report straight to your inbox.</p>
+      <form action="#" method="post">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" name="first_name" placeholder="Jane" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" name="last_name" placeholder="Smith" required>
+          </div>
+          <div class="form-group full">
+            <label for="email">Work email</label>
+            <input type="email" id="email" name="email" placeholder="jane.smith@company.com" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Acme Ltd">
+          </div>
+          <div class="form-group">
+            <label for="job-title">Job title</label>
+            <input type="text" id="job-title" name="job_title" placeholder="Head of People">
+          </div>
+        </div>
+        <div class="consent">
+          <input type="checkbox" id="gdpr" name="gdpr" required>
+          <label for="gdpr">I agree to receive communications from Lorna Cole. You can unsubscribe at any time. View our <a href="#">privacy policy</a>.</label>
+        </div>
+        <button type="submit" class="btn-submit">Download the report</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Lorna Cole</strong> &mdash; Leadership Research &amp; Executive Coaching</p>
+    <p style="margin-top:0.5rem">&copy; 2026 Lorna Cole. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
