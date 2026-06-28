@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GCC People Pulse: The Word on Work — Q2 2026</title>
-  <meta name="description" content="The GCC People Pulse from EXE and Ipsos Middle East tracks workforce sentiment across Saudi Arabia, the UAE, Qatar and Kuwait, providing leaders with insights into trust, wellbeing, retention, change and AI.">
+  <title>نبض موظفي دول مجلس التعاون الخليجي: الحديث عن العمل - الربع الثاني 2026</title>
+  <meta name="description" content="يتتبع تقرير نبض موظفي دول مجلس التعاون الخليجي من EXE وإبسوس الشرق الأوسط توجهات القوى العاملة في السعودية والإمارات وقطر والكويت، ويقدم للقادة رؤى حول الثقة والرفاهية والاحتفاظ بالمواهب والتغيير والذكاء الاصطناعي.">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Arial, sans-serif;
       color: #2c2c2c;
       background: #f6f8ef;
       line-height: 1.6;
+      direction: rtl;
+      text-align: right;
     }
 
     /* ── Nav ── */
@@ -24,6 +26,7 @@
       align-items: center;
       justify-content: space-between;
       height: 64px;
+      direction: ltr;
     }
     .logo {
       display: flex;
@@ -47,6 +50,7 @@
       color: #2c2c2c;
       text-decoration: none;
       letter-spacing: 0.01em;
+      direction: rtl;
       transition: color 0.2s;
     }
     .nav-links a:hover { color: #e8430b; }
@@ -54,6 +58,7 @@
       border: 1px solid #d6dbc9;
       border-radius: 4px;
       color: #2c2c2c;
+      direction: ltr;
       font-size: 0.875rem;
       font-weight: 600;
       line-height: 1;
@@ -74,7 +79,7 @@
       overflow: hidden;
       min-height: 380px;
       padding: 70px clamp(1.5rem, 5vw, 4rem) 84px;
-      text-align: center;
+      text-align: right;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -136,8 +141,8 @@
     .hero-eyebrow {
       font-size: 0.8rem;
       font-weight: 600;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
+      letter-spacing: 0;
+      text-transform: none;
       color: #686a69;
       margin-bottom: 1rem;
     }
@@ -164,7 +169,7 @@
       text-decoration: none;
       font-weight: 600;
       font-size: 0.95rem;
-      letter-spacing: 0.02em;
+      letter-spacing: 0;
       transition: background 0.2s;
     }
     .btn:hover { background: #a7002d; }
@@ -175,8 +180,8 @@
     .section-label {
       font-size: 0.75rem;
       font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
+      letter-spacing: 0;
+      text-transform: none;
       color: #e8430b;
       margin-bottom: 0.75rem;
     }
@@ -278,7 +283,7 @@
       justify-content: center;
       font-size: 1.3rem;
       font-weight: 700;
-      letter-spacing: 0.05em;
+      letter-spacing: 0;
     }
     .profile-text h3 {
       font-size: 1.1rem;
@@ -357,8 +362,8 @@
     .hero-stat {
       font-size: 0.8rem;
       font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
+      letter-spacing: 0;
+      text-transform: none;
       color: #e8430b;
       margin-top: 0;
       margin-bottom: 1.45rem;
@@ -387,7 +392,7 @@
       margin-left: auto;
       margin-right: auto;
       /*font-style: italic;*/
-      text-align: center;
+      text-align: right;
       line-height: 1.6;
     }
 
@@ -420,12 +425,12 @@
       font-weight: 900;
       color: #f6f8ef;
       line-height: 1.05;
-      letter-spacing: -0.02em;
+      letter-spacing: 0;
     }
     .community-actions {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: flex-end;
       gap: 1.5rem;
       flex-shrink: 0;
     }
@@ -481,11 +486,11 @@
       .nav-links { display: none; }
       .nav-menu { margin-left: auto; }
       .profiles { grid-template-columns: 1fr; }
-      .profile { flex-direction: column; align-items: center; text-align: center; }
+      .profile { flex-direction: column; align-items: flex-end; text-align: right; }
       .form-grid { grid-template-columns: 1fr; }
       .form-group.full { grid-column: auto; }
-      .community-inner { flex-direction: column; align-items: flex-start; gap: 2rem; }
-      .footer-legal { flex-direction: column; gap: 0.4rem; text-align: center; }
+      .community-inner { flex-direction: column; align-items: flex-end; gap: 2rem; }
+      .footer-legal { flex-direction: column; gap: 0.4rem; text-align: right; }
     }
 
     @media (max-width: 1024px) {
@@ -544,19 +549,19 @@
 <body>
 
   <nav>
-    <a href="https://weareexe.com" class="logo" aria-label="EXE home">
-      <img src="/img/logo-exe.png" alt="EXE logo" width="120" height="24">
+    <a href="https://weareexe.com" class="logo" aria-label="الصفحة الرئيسية لـ EXE">
+      <img src="/img/logo-exe.png" alt="شعار EXE" width="120" height="24">
     </a>
     <div class="nav-menu">
       <ul class="nav-links">
         <li><a href="https://weareexe.com">EXE</a></li>
-        <li><a href="https://weareexe.com/our-services">Our Services</a></li>
-        <li><a href="https://weareexe.com/events">Events</a></li>
-        <li><a href="https://weareexe.com/our-partners">Our Partners</a></li>
-        <li><a href="https://weareexe.com/our-team">Our Team</a></li>
-        <li><a href="https://weareexe.com/our-community">Our Community</a></li>
+        <li><a href="https://weareexe.com/our-services">خدماتنا</a></li>
+        <li><a href="https://weareexe.com/events">الفعاليات</a></li>
+        <li><a href="https://weareexe.com/our-partners">شركاؤنا</a></li>
+        <li><a href="https://weareexe.com/our-team">فريقنا</a></li>
+        <li><a href="https://weareexe.com/our-community">مجتمعنا</a></li>
       </ul>
-      <a class="language-switcher" href="report-arabic.html" lang="ar" hreflang="ar" aria-label="View this report in Arabic">العربية</a>
+      <a class="language-switcher" href="report.html" lang="en" hreflang="en" aria-label="View this report in English">English</a>
     </div>
   </nav>
 
@@ -573,11 +578,11 @@
       </div>
     </div>
     <div class="hero-inner">
-      <p class="hero-eyebrow">GCC People Pulse - Wave 01</p>
-      <h1>The Word on Work</h1>
-      <p>The definitive monthly measure of workforce sentiment across the GCC, powered by EXE and Ipsos Middle East.</p>
-      <div class="hero-stat">Insights from 1,500+ employees across the GCC</div>
-      <a href="#download" class="btn">Download the report</a>
+      <p class="hero-eyebrow">نبض موظفي دول مجلس التعاون الخليجي - الموجة 01</p>
+      <h1>الحديث عن العمل</h1>
+      <p>المقياس الشهري المرجعي لتوجهات القوى العاملة في دول مجلس التعاون الخليجي، بإعداد EXE وإبسوس الشرق الأوسط.</p>
+      <div class="hero-stat">رؤى من أكثر من 1,500 موظف في دول مجلس التعاون الخليجي</div>
+      <a href="#download" class="btn">تنزيل التقرير</a>
     </div>
   </div>
 
@@ -585,11 +590,11 @@
   <section class="findings" id="findings">
     <div class="container">
       <div class="context-text">
-        <p class="section-label">Why this matters</p>
-        <h2 class="section-title">The GCC is a workforce unlike any other</h2>
-        <p>For the first time, organisations across the GCC have access to a dedicated, data-driven view of what workers across the region actually think, feel and experience at work. The GCC People Pulse: The Word on Work is the region's first monthly workforce sentiment tracker, providing a regular measure of employee sentiment across the region.</p>
-        <p>The GCC workforce is unlike anywhere else in the world. Rapid transformation, evolving workforce expectations, nationalisation priorities, and the growing impact of AI are reshaping the workplace.</p>
-        <p>Yet until now, there has been no consistent, region-specific measure of workforce sentiment across the GCC.</p>
+        <p class="section-label">لماذا يهم ذلك</p>
+        <h2 class="section-title">قوى العمل في دول مجلس التعاون الخليجي فريدة من نوعها</h2>
+        <p>للمرة الأولى، أصبح لدى المؤسسات في دول مجلس التعاون الخليجي منظور متخصص قائم على البيانات لما يفكر فيه العاملون في المنطقة ويشعرون به ويختبرونه فعلياً في العمل. يعد تقرير نبض موظفي دول مجلس التعاون الخليجي: الحديث عن العمل أول مؤشر شهري في المنطقة لتوجهات القوى العاملة، إذ يقدم قياساً منتظماً لمشاعر الموظفين في مختلف أنحاء المنطقة.</p>
+        <p>تختلف قوى العمل في دول مجلس التعاون الخليجي عن أي مكان آخر في العالم. فالتحول السريع، وتطور توقعات الموظفين، وأولويات التوطين، والتأثير المتنامي للذكاء الاصطناعي كلها عوامل تعيد تشكيل بيئة العمل.</p>
+        <p>ومع ذلك، لم يكن هناك حتى الآن مقياس ثابت ومخصص للمنطقة يرصد توجهات القوى العاملة في دول مجلس التعاون الخليجي.</p>
       </div>
     </div>
   </section>
@@ -597,56 +602,56 @@
   <!-- What You'll Discover -->
   <section class="topics" id="topics">
     <div class="container">
-      <p class="section-label">What you'll discover</p>
-      <h2 class="section-title">Inside the latest findings</h2>
+      <p class="section-label">ما الذي ستكتشفه</p>
+      <h2 class="section-title">داخل أحدث النتائج</h2>
       <div class="cards">
         <div class="card">
           <span class="card-icon">🤝</span>
-          <h3>Trust in Leadership</h3>
-          <p>Confidence in organisational direction and how employees rate the leaders guiding them through change.</p>
+          <h3>الثقة في القيادة</h3>
+          <p>مدى الثقة في توجه المؤسسة وكيف يقيم الموظفون القادة الذين يوجهونهم خلال التغيير.</p>
         </div>
         <div class="card">
           <span class="card-icon">🌱</span>
-          <h3>Wellbeing &amp; Belonging</h3>
-          <p>The employee experience: how people feel, connect and find meaning at work across the GCC.</p>
+          <h3>الرفاهية والانتماء</h3>
+          <p>تجربة الموظف: كيف يشعر الأفراد، ويتواصلون، ويجدون المعنى في العمل عبر دول مجلس التعاون الخليجي.</p>
         </div>
         <div class="card">
           <span class="card-icon">📊</span>
-          <h3>Retention Risk</h3>
-          <p>Workforce stability signals and what may be driving employees to stay — or look elsewhere.</p>
+          <h3>مخاطر الاحتفاظ بالموظفين</h3>
+          <p>مؤشرات استقرار القوى العاملة والعوامل التي قد تدفع الموظفين إلى البقاء أو البحث عن فرص أخرى.</p>
         </div>
         <div class="card">
           <span class="card-icon">🔄</span>
-          <h3>Readiness for Change</h3>
-          <p>How prepared employees feel for the pace of transformation underway across the region.</p>
+          <h3>الاستعداد للتغيير</h3>
+          <p>مدى شعور الموظفين بالجاهزية لمواكبة وتيرة التحول الجارية في أنحاء المنطقة.</p>
         </div>
         <div class="card">
           <span class="card-icon">🤖</span>
-          <h3>AI &amp; the Future of Work</h3>
-          <p>Attitudes towards AI and its growing impact on roles, skills and ways of working.</p>
+          <h3>الذكاء الاصطناعي ومستقبل العمل</h3>
+          <p>المواقف تجاه الذكاء الاصطناعي وتأثيره المتزايد في الأدوار والمهارات وطرق العمل.</p>
         </div>
       </div>
-      <p class="findings-close">The findings reveal where employees feel confident, where concerns are emerging, and where organisations may need to challenge their assumptions.</p>
+      <p class="findings-close">تكشف النتائج أين يشعر الموظفون بالثقة، وأين تبدأ المخاوف بالظهور، وأين قد تحتاج المؤسسات إلى مراجعة افتراضاتها.</p>
     </div>
   </section>
 
   <!-- Author Profile -->
   <section class="profile-section" id="about">
     <div class="container">
-      <p class="section-label">About the research</p>
-      <h2 class="section-title">Behind the GCC People Pulse</h2>
+      <p class="section-label">عن البحث</p>
+      <h2 class="section-title">ما وراء نبض موظفي دول مجلس التعاون الخليجي</h2>
       <div class="profiles">
         <div class="profile">
 
           <div class="profile-text">
             <h3>EXE</h3>
-            <p class="profile-bio">Employee Experience Exchange (EXE) is a UAE-based community and consultancy on a mission to transform society by transforming work. We believe workplaces sit at the centre of our lives – and that when people thrive at work, communities and economies thrive too. We audit, advise and partner with organisations to create employee experiences that match their ambition. We bring together HR, internal communications, culture and leadership professionals across the GCC who share a belief that work can and should be better.</p>
+            <p class="profile-bio">تعد Employee Experience Exchange (EXE) مجتمعاً واستشارية مقرها دولة الإمارات، وتعمل على تحويل المجتمع من خلال تحويل العمل. نؤمن بأن أماكن العمل تقع في قلب حياتنا، وأن ازدهار الأفراد في العمل يقود أيضاً إلى ازدهار المجتمعات والاقتصادات. نقوم بالتدقيق وتقديم المشورة والشراكة مع المؤسسات لإنشاء تجارب موظفين تواكب طموحاتها. كما نجمع متخصصي الموارد البشرية والاتصال الداخلي والثقافة والقيادة في دول مجلس التعاون الخليجي ممن يؤمنون بأن العمل يمكن، وينبغي، أن يكون أفضل.</p>
           </div>
         </div>
         <div class="profile">
           <div class="profile-text">
             <h3>Ipsos</h3>
-            <p class="profile-bio">Ipsos is one of the largest market research and polling companies globally, operating in 90 markets and employing nearly 19,000 people. Our passionately curious research professionals, analysts and scientists have built unique multi-specialist capabilities that provide true understanding and powerful insights into the actions, opinions and motivations of citizens, consumers, patients, customers or employees. Our 75 business solutions are based on primary data from our surveys, social media monitoring, and qualitative or observational techniques.</p>
+            <p class="profile-bio">تعد إبسوس واحدة من أكبر شركات أبحاث السوق واستطلاعات الرأي عالمياً، إذ تعمل في 90 سوقاً وتوظف ما يقرب من 19,000 شخص. وقد بنى خبراؤنا وباحثونا ومحللونا وعلماؤنا، المدفوعون بفضول عميق، قدرات متخصصة وفريدة توفر فهماً حقيقياً ورؤى قوية حول أفعال وآراء ودوافع المواطنين والمستهلكين والمرضى والعملاء والموظفين. وتستند حلولنا التجارية البالغ عددها 75 حلاً إلى بيانات أولية من استطلاعاتنا، ومراقبة وسائل التواصل الاجتماعي، والتقنيات النوعية أو القائمة على الملاحظة.</p>
           </div>
         </div>
       </div>
@@ -680,51 +685,51 @@
   <!-- Download Form -->
   <section class="form-section" id="download">
     <div class="container">
-      <p class="section-label">Access the latest findings</p>
-      <h2 class="section-title">Download the Report</h2>
-      <p class="section-intro">Gain insight from more than 1,500 workers across the GCC and discover what the region's workforce is really saying about work today.</p>
-      <iframe data-tally-src="https://tally.so/embed/EkA0AL?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="290" frameborder="0" marginheight="0" marginwidth="0" title="Lead generation form"></iframe>
+      <p class="section-label">الوصول إلى أحدث النتائج</p>
+      <h2 class="section-title">تنزيل التقرير</h2>
+      <p class="section-intro">اطلع على رؤى مستخلصة من أكثر من 1,500 عامل في دول مجلس التعاون الخليجي واكتشف ما تقوله القوى العاملة في المنطقة فعلياً عن العمل اليوم.</p>
+      <iframe data-tally-src="https://tally.so/embed/EkA0AL?alignLeft=0&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="290" frameborder="0" marginheight="0" marginwidth="0" title="نموذج طلب التقرير"></iframe>
       <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 
       <!--<form id="report-form">
         <div class="form-grid">
           <div class="form-group">
-            <label for="first-name">First name</label>
-            <input type="text" id="first-name" name="first_name" placeholder="Jane" required>
+            <label for="first-name">الاسم الأول</label>
+            <input type="text" id="first-name" name="first_name" placeholder="سارة" required>
           </div>
           <div class="form-group">
-            <label for="last-name">Last name</label>
-            <input type="text" id="last-name" name="last_name" placeholder="Smith" required>
+            <label for="last-name">اسم العائلة</label>
+            <input type="text" id="last-name" name="last_name" placeholder="أحمد" required>
           </div>
           <div class="form-group full">
-            <label for="email">Work email</label>
-            <input type="email" id="email" name="email" placeholder="jane.smith@company.com" required>
+            <label for="email">البريد الإلكتروني للعمل</label>
+            <input type="email" id="email" name="email" placeholder="sara.ahmed@company.com" required>
           </div>
           <div class="form-group">
-            <label for="company">Company</label>
-            <input type="text" id="company" name="company" placeholder="Acme Ltd">
+            <label for="company">الشركة</label>
+            <input type="text" id="company" name="company" placeholder="اسم الشركة">
           </div>
           <div class="form-group">
-            <label for="job-title">Job title</label>
-            <input type="text" id="job-title" name="job_title" placeholder="Head of People">
+            <label for="job-title">المسمى الوظيفي</label>
+            <input type="text" id="job-title" name="job_title" placeholder="رئيس قسم الموارد البشرية">
           </div>
         </div>
         <div class="consent">
           <input type="checkbox" id="gdpr" name="gdpr" required>
-          <label for="gdpr">I agree to receive communications from EXE. You can unsubscribe at any time. View our <a href="#">privacy policy</a>.</label>
+          <label for="gdpr">أوافق على تلقي رسائل من EXE. يمكنك إلغاء الاشتراك في أي وقت. اطلع على <a href="#">سياسة الخصوصية</a>.</label>
         </div>
-        <button type="submit" class="btn-submit">Download the report</button>
-        <p class="form-error" id="form-error" style="display:none">Something went wrong — please try again.</p>
+        <button type="submit" class="btn-submit">تنزيل التقرير</button>
+        <p class="form-error" id="form-error" style="display:none">حدث خطأ ما، يرجى المحاولة مرة أخرى.</p>
       </form>-->
 
       <div id="download-success">
-        <h3 class="section-title">Thank you!</h3>
-        <p style="font-size:1.1rem;color:#555;margin-bottom:2rem;max-width:560px">Your copy of GCC People Pulse: The Word on Work is ready.</p>
+        <h3 class="section-title">شكراً لك!</h3>
+        <p style="font-size:1.1rem;color:#555;margin-bottom:2rem;max-width:560px">نسختك من تقرير نبض موظفي دول مجلس التعاون الخليجي: الحديث عن العمل جاهزة.</p>
         <!-- Update this href when you upload the PDF to Cloudflare Pages -->
-        <a href="/gcc-people-pulse-wave-01.pdf" class="btn" download style="display:inline-block">Download the report</a>
-        <p style="margin-top:2.5rem;color:#555;max-width:560px;line-height:1.7">The GCC People Pulse provides a regular view of workforce sentiment across the GCC, helping leaders understand what employees are really thinking, feeling and experiencing at work.</p>
-        <p style="margin-top:1rem;color:#555;max-width:560px;line-height:1.7">Interested in discussing the findings or learning more about the research? Get in touch with the EXE team.</p>
-        <a href="mailto:hello@weareexe.com" class="btn" style="margin-top:1.5rem;display:inline-block">Contact us</a>
+        <a href="/gcc-people-pulse-wave-01.pdf" class="btn" download style="display:inline-block">تنزيل التقرير</a>
+        <p style="margin-top:2.5rem;color:#555;max-width:560px;line-height:1.7">يقدم نبض موظفي دول مجلس التعاون الخليجي رؤية منتظمة لتوجهات القوى العاملة في المنطقة، بما يساعد القادة على فهم ما يفكر فيه الموظفون ويشعرون به ويختبرونه فعلياً في العمل.</p>
+        <p style="margin-top:1rem;color:#555;max-width:560px;line-height:1.7">هل ترغب في مناقشة النتائج أو معرفة المزيد عن البحث؟ تواصل مع فريق EXE.</p>
+        <a href="mailto:hello@weareexe.com" class="btn" style="margin-top:1.5rem;display:inline-block">تواصل معنا</a>
       </div>
     </div>
   </section>
@@ -732,9 +737,9 @@
   <!-- Community band -->
   <div class="community-band">
     <div class="community-inner">
-      <h2 class="community-heading">Join the<br>community</h2>
+      <h2 class="community-heading">انضم إلى<br>المجتمع</h2>
       <div class="community-actions">
-        <a href="https://weareexe.com/our-community" class="btn">Join now</a>
+        <a href="https://weareexe.com/our-community" class="btn">انضم الآن</a>
         <div class="social-icons">
           <!-- Instagram -->
           <a href="https://www.instagram.com/weareexe/" target="_blank" rel="noopener" aria-label="Instagram">
@@ -770,7 +775,7 @@
 
   <footer>
     <div class="footer-legal">
-      <span>Registered: EXE Consulting LLC</span>
+      <span>مسجلة باسم: EXE Consulting LLC</span>
       <span>hello@weareexe.com</span>
     </div>
   </footer>
@@ -780,12 +785,13 @@
       const form = document.getElementById('report-form');
       const success = document.getElementById('download-success');
       const errorEl = document.getElementById('form-error');
+      if (!form || !success || !errorEl) return;
       const btn = form.querySelector('.btn-submit');
 
       form.addEventListener('submit', async function (e) {
         e.preventDefault();
         btn.disabled = true;
-        btn.textContent = 'Sending…';
+        btn.textContent = 'جارٍ الإرسال...';
         errorEl.style.display = 'none';
 
         const body = {
@@ -807,7 +813,7 @@
           success.style.display = 'block';
         } catch {
           btn.disabled = false;
-          btn.textContent = 'Download the report';
+          btn.textContent = 'تنزيل التقرير';
           errorEl.style.display = 'block';
         }
       });
