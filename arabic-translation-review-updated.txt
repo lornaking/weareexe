@@ -1,0 +1,411 @@
+Arabic Translation Review - GCC People Pulse page
+Source page: index.html
+Arabic page: report-ar.html
+
+Instructions for reviewer:
+- Please review the Arabic in each REVIEWED_AR field.
+- If the current Arabic is good, leave REVIEWED_AR unchanged.
+- If you recommend a change, edit only REVIEWED_AR.
+- Please do not edit the ID labels. I will use them to update the HTML.
+- Brand/product names such as EXE, Ipsos, GCC, Employee Experience Exchange, Tally, Cloudflare Pages and email/URL text may remain in English where appropriate.
+- The final page is right-to-left Arabic.
+
+---
+
+ID: meta.title
+Context: Browser page title
+EN: GCC People Pulse: The Word on Work - Q2 2026
+AR: نبض الموظفين في دول الخليج: الحديث عن العمل - الربع الثاني 2026
+REVIEWED_AR: نبض الموظفين في الخليج: الحديث عن العمل - الربع الثاني 2026
+
+ID: meta.description
+Context: SEO/meta description
+EN: The GCC People Pulse from EXE and Ipsos Middle East tracks workforce sentiment across Saudi Arabia, the UAE, Qatar and Kuwait, providing leaders with insights into trust, wellbeing, retention, change and AI.
+AR: يوفّر تقرير نبض الموظفين في دول الخليج من Employee Experience Exchange وإبسوس الشرق الأوسط توجهات القوى العاملة في السعودية والإمارات وقطر والكويت، ويزود القادة برؤى حول الثقة والرفاهية والاحتفاظ بالمواهب وإدارة التغيير والذكاء الاصطناعي.
+REVIEWED_AR: يوفّر تقرير نبض الموظفين في الخليج من Employee Experience Exchange وإبسوس الشرق الأوسط توجهات القوى العاملة في السعودية والإمارات وقطر والكويت، ويزود القادة برؤى حول الثقة والرفاهية والاحتفاظ بالمواهب وإدارة التغيير والذكاء الاصطناعي.
+
+ID: nav.logo_aria
+Context: Logo accessibility label
+EN: EXE home
+AR: الصفحة الرئيسية لـ Employee Experience Exchange
+REVIEWED_AR: الصفحة الرئيسية لـ Employee Experience Exchange
+
+ID: nav.logo_alt
+Context: Logo image alt text
+EN: EXE logo
+AR: شعار EXE
+REVIEWED_AR: شعار Employee Experience Exchange
+
+ID: nav.services
+Context: Navigation link
+EN: Our Services
+AR: خدماتنا
+REVIEWED_AR: خدماتنا
+
+ID: nav.events
+Context: Navigation link
+EN: Events
+AR: الفعاليات
+REVIEWED_AR: الفعاليات
+
+ID: nav.partners
+Context: Navigation link
+EN: Our Partners
+AR: شركاؤنا
+REVIEWED_AR: شركاؤنا
+
+ID: nav.team
+Context: Navigation link
+EN: Our Team
+AR: فريقنا
+REVIEWED_AR: فريقنا
+
+ID: nav.community
+Context: Navigation link
+EN: Our Community
+AR: مجتمعنا
+REVIEWED_AR: مجتمعنا
+
+ID: nav.language_switcher_aria
+Context: English language switcher accessibility label
+EN: View this report in English
+AR: عرض هذا التقرير باللغة الإنجليزية
+REVIEWED_AR: عرض هذا التقرير باللغة الإنجليزية
+
+ID: hero.eyebrow
+Context: Hero eyebrow text
+EN: WORD ON WORK - WAVE 1
+AR: الحديث عن العمل - الاصدار الأول
+REVIEWED_AR: الحديث عن العمل - الاصدار الأول
+
+ID: hero.title
+Context: Main H1
+EN: The GCC People Pulse - Q2 2026
+AR: نبض الموظفين في دول الخليج - الربع الثاني 2026
+REVIEWED_AR: نبض الموظفين في دول الخليج - الربع الثاني 2026
+
+ID: hero.intro
+Context: Hero intro paragraph
+EN: The definitive monthly measure of workforce sentiment across the GCC, powered by Employee Experience Exchange and Ipsos Middle East.
+AR: الاصدار الشهري المرجعي لتوجهات القوى العاملة في دول الخليج، بإعداد Employee Experience Exchange وإبسوس الشرق الأوسط.
+REVIEWED_AR: الاصدار الشهري المرجعي لتوجهات القوى العاملة في دول مجلس التعاون الخليجي، بإعداد Employee Experience Exchange وإبسوس الشرق الأوسط.
+
+ID: hero.stat
+Context: Hero stat line
+EN: Insights from 1,500+ employees across the GCC
+AR: رؤى أكثر من 1,500 موظف في دول الخليج
+REVIEWED_AR: رؤى أكثر من 1,500 موظف في دول الخليج
+
+ID: hero.cta
+Context: Hero button
+EN: Download the report
+AR: تحميل التقرير
+REVIEWED_AR: تحميل التقرير
+
+ID: why.label
+Context: Section label
+EN: Why this matters
+AR: لماذا يُعد هذا مهمًا؟
+REVIEWED_AR: لماذا يُعد هذا مهمًا؟
+
+ID: why.title
+Context: Section heading
+EN: The GCC is a workforce unlike any other
+AR: تعتبر القوى العاملة في دول الخليج فريدة من نوعها
+REVIEWED_AR:  تعتبر القوى العاملة في دول الخليج فريدة من نوعها
+
+ID: why.optional_hidden_intro
+Context: Currently hidden/commented paragraph; review in case it is restored later
+EN: For the first time, organisations across the GCC have access to a dedicated, data-driven view of what workers across the region actually think, feel and experience at work. The GCC People Pulse: The Word on Work is the region's first monthly workforce sentiment tracker, providing a regular measure of employee sentiment across the region.
+AR: للمرة الأولى، أصبح لدى المؤسسات في دول الخليج مصدر متخصص قائم على البيانات يتضمن ما يفكر فيه الموظفون في المنطقة ويشعرون به ويختبرونه. يعد تقرير نبض الموظفين في دول الخليج: الحديث عن العمل أول اصدار شهري في المنطقة لتوجهات القوى العاملة، إذ يقدم رؤية حية عن ما يشعر به الموظفين في مختلف أنحاء المنطقة.
+REVIEWED_AR: للمرة الأولى، أصبح لدى المؤسسات في دول الخليج مصدر متخصص قائم على البيانات يتضمن ما يفكر فيه الموظفون في المنطقة ويشعرون به ويختبرونه في العمل. يعد تقرير نبض الموظفين في دول الخليج: الحديث عن العمل أول اصدار شهري في المنطقة لتوجهات القوى العاملة، إذ يقدم رؤية حية ن ما يشعر به الموظفين في مختلف أنحاء المنطقة.
+
+ID: why.paragraph_1
+Context: Why this matters body copy
+EN: The GCC workforce is unlike anywhere else in the world. Rapid transformation, evolving workforce expectations, nationalisation priorities, and the growing impact of AI are reshaping the workplace.
+AR: تختلف القوى العاملة في دول الخليج عن غيرها حول العالم. فالتحول السريع، وتطور توقعات الموظفين، وأولويات التوطين، والتأثير المتنامي للذكاء الاصطناعي كلها عوامل تعيد تشكيل بيئة العمل.
+REVIEWED_AR: تختلف القوى العاملة في دول الخليج عن غيرها حول العالم. فالتحول السريع، وتطور توقعات الموظفين، وأولويات التوطين، والتأثير المتنامي للذكاء الاصطناعي كلها عوامل تعيد تشكيل بيئة العمل.
+
+ID: why.paragraph_2
+Context: Why this matters body copy
+EN: Yet until now, there has been no consistent, region-specific measure of workforce sentiment across the GCC.
+AR: ومع ذلك، لم يكن هناك حتى الآن مقياس ثابت ومخصص للمنطقة يرصد توجهات القوى العاملة في دول مجلس التعاون الخليجي.
+REVIEWED_AR: ومع ذلك، لم يكن هناك حتى الآن مقياس ثابت ومخصص للمنطقة يرصد توجهات القوى العاملة في دول مجلس التعاون الخليجي.
+
+ID: topics.label
+Context: Section label
+EN: What you'll discover
+AR: ما الذي ستكتشفه
+REVIEWED_AR: ما الذي ستكتشفه
+
+ID: topics.title
+Context: Section heading
+EN: Inside the latest findings
+AR: في أحدث النتائج
+REVIEWED_AR: في أحدث النتائج
+
+ID: topics.trust.title
+Context: Finding card heading
+EN: Trust in Leadership
+AR: الثقة في القيادة
+REVIEWED_AR: الثقة في القيادة
+
+ID: topics.trust.body
+Context: Finding card body
+EN: Confidence in organisational direction and how employees rate the leaders guiding them through change.
+AR: مدى الثقة في توجه المؤسسة وكيف يقيم الموظفون القادة الذين يقودونهم خلال فترة التغيير.
+REVIEWED_AR: مدى الثقة في توجه المؤسسة وكيف يقيم الموظفون القادة الذين يقودونهم خلال فترة التغيير.
+
+ID: topics.wellbeing.title
+Context: Finding card heading
+EN: Wellbeing & Belonging
+AR: الرفاهية والانتماء
+REVIEWED_AR: الرفاهية والانتماء
+
+ID: topics.wellbeing.body
+Context: Finding card body
+EN: The employee experience: how people feel, connect and find meaning at work across the GCC.
+AR: تجربة الموظف: كيف يشعر الأفراد، ويتواصلون،ليجدوا المعنى الحقيقي في العمل في دول الخليج.
+REVIEWED_AR: تجربة الموظف: كيف يشعر الأفراد، ويتواصلون، ليجدوا المعنى في العمل عبر دول مجلس التعاون الخليجي.
+
+ID: topics.retention.title
+Context: Finding card heading
+EN: Retention Risk
+AR: مخاطر الاحتفاظ بالموظفين
+REVIEWED_AR: مخاطر الاحتفاظ بالموظفين
+
+ID: topics.retention.body
+Context: Finding card body
+EN: Workforce stability signals and what may be driving employees to stay - or look elsewhere.
+AR: مؤشرات استقرار القوى العاملة والعوامل التي قد تدفع الموظفين إلى البقاء أو البحث عن فرص وظيفية أخرى.
+REVIEWED_AR: مؤشرات استقرار القوى العاملة والعوامل التي قد تدفع الموظفين إلى البقاء أو البحث عن فرص وظيفية أخرى.
+
+ID: topics.change.title
+Context: Finding card heading
+EN: Readiness for Change
+AR: الاستعداد للتغيير
+REVIEWED_AR: الاستعداد للتغيير
+
+ID: topics.change.body
+Context: Finding card body
+EN: How prepared employees feel for the pace of transformation underway across the region.
+AR: مدى شعور الموظفين بالجاهزية لمواكبة وتيرة التحول الجارية في أنحاء المنطقة.
+REVIEWED_AR: مدى شعور الموظفين بالجاهزية لمواكبة وتيرة التحول الجارية في أنحاء المنطقة.
+
+ID: topics.ai.title
+Context: Finding card heading
+EN: AI & the Future of Work
+AR: الذكاء الاصطناعي ومستقبل العمل
+REVIEWED_AR: الذكاء الاصطناعي ومستقبل العمل
+
+ID: topics.ai.body
+Context: Finding card body
+EN: Attitudes towards AI and its growing impact on roles, skills and ways of working.
+AR: المواقف تجاه الذكاء الاصطناعي وتأثيره المتزايد في الأدوار ال،طيفية والمهارات وطرق العمل.
+REVIEWED_AR: المواقف تجاه الذكاء الاصطناعي وتأثيره المتزايد في الأدوار الوظيفية والمهارات وطرق العمل.
+
+ID: topics.close
+Context: Closing line under finding cards
+EN: The findings reveal where employees feel confident, where concerns are emerging, and where organisations may need to challenge their assumptions.
+AR: تكشف النتائج مدى شعور الموظفين بالثقة، وأين تبدأ مخاوفهم، وأين قد تحتاج المؤسسات إلى مراجعة اعتقاداتها.
+REVIEWED_AR: تكشف النتائج مدى شعور الموظفين بالثقة، وأين تبدأ مخاوفهم، وأين قد تحتاج المؤسسات إلى مراجعة اعتقاداتها.
+
+ID: about.label
+Context: Section label
+EN: About the research
+AR: عن البحث
+REVIEWED_AR: عن البحث
+
+ID: about.title
+Context: Section heading
+EN: Behind the GCC People Pulse
+AR:  وراء نبض الموظفين في الخليج
+REVIEWED_AR: ما وراء نبض الموظفين في الخليج
+
+ID: about.exe_logo_alt
+Context: EXE logo alt text
+EN: EXE logo
+AR: شعار Employee Experience Exchange
+REVIEWED_AR: شعار Employee Experience Exchange
+
+ID: about.exe.body
+Context: EXE profile body
+EN: Employee Experience Exchange (EXE) is a UAE-based community and consultancy on a mission to transform society by transforming work. We believe workplaces sit at the centre of our lives - and that when people thrive at work, communities and economies thrive too. We audit, advise and partner with organisations to create employee experiences that match their ambition. We bring together HR, internal communications, culture and leadership professionals across the GCC who share a belief that work can and should be better.
+AR: تعد Employee Experience Exchange (EXE) مجتمعاً واستشارية مقرها دولة الإمارات، وتسعي إلي احداث أثر إيجابي في المجتمع من خلال تطوير بيئة العمل. نؤمن بأن مكان العمل يشكل جزءًا أساسيًا من  حياتنا، وأن ازدهار الأفراد في العمل ينعكس ايجابا علي ازدهار المجتمعات واقتصاد الدول. نعمل مع المؤسسات من خلال التدقيق وتقديم المشورة والشراكة لإنشاء تجارب موظفين تواكب طموحاتها. كما نجمع نخبة من الممتخصصين في الموارد البشرية والاتصال الداخلي والثقافة والقيادة في دول الخليج ممن يؤمنون بأن العمل يمكن، وينبغي، أن يكون أفضل.
+REVIEWED_AR: تعد Employee Experience Exchange (EXE) مجتمعاً واستشارية مقرها دولة الإمارات، وتسعي إلي احداث أثر إيجابي في المجتمع من خلال تطوير بيئة العمل. نؤمن بأن مكان العمل يشكل جزءًا أساسيًا من  حياتنا، وأن ازدهار الأفراد في العمل ينعكس ايجابا
+  علي ازدهار المجتمعات واقتصاد الدول. نعمل مع المؤسسات من خلال التدقيق وتقديم المشورة والشراكة لإنشاء تجارب موظفين تواكب طموحاتها. كما نجمع نخبة من المتخصصين في الموارد البشرية والاتصال الداخلي والثقافة والقيادة في دول الخليج ممن يؤمنون بأن العمل يمكن، وينبغي، أن يكون أفضل.
+
+ID: about.ipsos_logo_alt
+Context: Ipsos logo alt text
+EN: Ipsos logo
+AR: شعار Ipsos
+REVIEWED_AR: شعار Ipsos
+
+ID: about.ipsos.body
+Context: Ipsos profile body
+EN: Ipsos is one of the largest market research and polling companies globally, operating in 90 markets and employing nearly 19,000 people. Our passionately curious research professionals, analysts and scientists have built unique multi-specialist capabilities that provide true understanding and powerful insights into the actions, opinions and motivations of citizens, consumers, patients, customers or employees. Our 75 business solutions are based on primary data from our surveys, social media monitoring, and qualitative or observational techniques.
+AR: تعد إبسوس واحدة من أكبر شركات الأبحاث واستطلاعات الرأي في العالم، إذ تنتشر في 90 قطاعا، وتوظف ما يقرب من 19,000 موظف. ،ويطور خبراؤها وباحثوها ومحللوها وعلماؤنه، بدافع من فضول عميق، قدرات متخصصة وفريدة توفر فهماً حقيقياً ورؤى قوية حول أفعال وآراء ودوافع المواطنين والمستهلكين والمرضى والعملاء والموظفين. وتستند خدماتها التجارية البالغ عددها 75 حلاً إلى بيانات أولية من استطلاعات، ومراقبة وسائل التواصل الاجتماعي، والتقنيات النوعية أو القائمة على الملاحظة.
+REVIEWED_AR: تعد إبسوس واحدة من أكبر شركات الأبحاث واستطلاعات الرأي في العالم، إذ تنتشر في 90 قطاعا وتوظف ما يقرب من 19,000 موظف. ويطور خبراؤها وباحثوها ومحللوها وعلماؤها، بدافع من فضول عميق، قدرات متخصصة وفريدة توفر فهماً حقيقياً ورؤى قوية حول أفعال وآراء ودوافع المواطنين والمستهلكين والمرضى والعملاء والموظفين. وتستند خدماتها التجارية البالغ عددها 75 حلاً إلى بيانات أولية من استطلاعاتنا، ومراقبة وسائل التواصل الاجتماعي، والتقنيات النوعية أو القائمة على الملاحظة.
+
+ID: download.label
+Context: Section label
+EN: Access the latest findings
+AR: الوصول إلى أحدث النتائج
+REVIEWED_AR: الوصول إلى أحدث النتائج
+
+ID: download.title
+Context: Section heading
+EN: Download the Report
+AR: تحميل التقرير
+REVIEWED_AR: تحميل التقرير
+
+ID: download.intro
+Context: Download section intro
+EN: Gain insight from more than 1,500 workers across the GCC and discover what the region's workforce is really saying about work today.
+AR: اطلع على رؤى أكثر من 1,500 موظف في الخليج وتعرف إلي ما تقوله القوى العاملة في المنطقة عن  واقع العمل اليوم.
+REVIEWED_AR: اطلع على رؤى أكثر من 1,500 موظف في الخليج وتعرف إلي ما تقوله القوى العاملة في المنطقة فعلياً عن واقع العمل اليوم.
+
+ID: download.iframe_title
+Context: Embedded Tally form title/accessibility text
+EN: Lead generation form
+AR: نموذج طلب التقرير
+REVIEWED_AR: نموذج طلب التقرير
+
+ID: form.first_name_label
+Context: Hidden/commented fallback form label
+EN: First name
+AR: الاسم الأول
+REVIEWED_AR: الاسم الأول
+
+ID: form.first_name_placeholder
+Context: Hidden/commented fallback form placeholder
+EN: Jane
+AR: سارة
+REVIEWED_AR: سارة
+
+ID: form.last_name_label
+Context: Hidden/commented fallback form label
+EN: Last name
+AR: اسم العائلة
+REVIEWED_AR: اسم العائلة
+
+ID: form.last_name_placeholder
+Context: Hidden/commented fallback form placeholder
+EN: Smith
+AR: أحمد
+REVIEWED_AR: أحمد
+
+ID: form.email_label
+Context: Hidden/commented fallback form label
+EN: Work email
+AR: البريد الإلكتروني للمؤسسة
+REVIEWED_AR: البريد الإلكتروني للمؤسسة
+
+ID: form.email_placeholder
+Context: Hidden/commented fallback form placeholder
+EN: jane.smith@company.com
+AR: sara.ahmed@company.com
+REVIEWED_AR: sara.ahmed@company.com
+
+ID: form.company_label
+Context: Hidden/commented fallback form label
+EN: Company
+AR: الشركة
+REVIEWED_AR: الشركة
+
+ID: form.company_placeholder
+Context: Hidden/commented fallback form placeholder
+EN: Acme Ltd
+AR: اسم الشركة
+REVIEWED_AR: اسم الشركة
+
+ID: form.job_title_label
+Context: Hidden/commented fallback form label
+EN: Job title
+AR: المسمى الوظيفي
+REVIEWED_AR: المسمى الوظيفي
+
+ID: form.job_title_placeholder
+Context: Hidden/commented fallback form placeholder
+EN: Head of People
+AR: رئيس قسم الموارد البشرية
+REVIEWED_AR: رئيس قسم الموارد البشرية
+
+ID: form.consent
+Context: Hidden/commented fallback form consent label
+EN: I agree to receive communications from EXE. You can unsubscribe at any time. View our privacy policy.
+AR: أوافق على تلقي رسائل من Employee Experience Exchange. يمكنك إلغاء الاشتراك في أي وقت. اطلع على سياسة الخصوصية.
+REVIEWED_AR: أوافق على تلقي رسائل من Employee Experience Exchange. يمكنك إلغاء الاشتراك في أي وقت. اطلع على سياسة الخصوصية.
+
+ID: form.submit
+Context: Hidden/commented fallback form submit button
+EN: Download the report
+AR: تحميل التقرير
+REVIEWED_AR: تحميل التقرير
+
+ID: form.error
+Context: Hidden/commented fallback form error message
+EN: Something went wrong - please try again.
+AR: حدث خطأ ما، يرجى المحاولة مرة أخرى.
+REVIEWED_AR: حدث خطأ ما، يرجى المحاولة مرة أخرى.
+
+ID: download.success_title
+Context: Hidden success state heading
+EN: Thank you!
+AR: شكراً لك!
+REVIEWED_AR: شكراً لك!
+
+ID: download.success_ready
+Context: Hidden success state paragraph
+EN: Your copy of GCC People Pulse: The Word on Work is ready.
+AR: نسختك من دراسة نبض الموظفين في الخليج: الحديث عن جاهزية العمل.
+REVIEWED_AR: نسختك من دراسة نبض الموظفين في الخليج: الحديث عن جاهزيةالعمل.
+
+ID: download.success_cta
+Context: Hidden success state download button
+EN: Download the report
+AR: تحميل التقرير
+REVIEWED_AR: تحميل التقرير
+
+ID: download.success_about
+Context: Hidden success state paragraph
+EN: The GCC People Pulse provides a regular view of workforce sentiment across the GCC, helping leaders understand what employees are really thinking, feeling and experiencing at work.
+AR: يقدم نبض الموظفين في الخليج رؤية واقعية لتوجهات القوى العاملة في المنطقة، بما يساعد القادة على فهم ما يفكر فيه الموظفون ويشعرون به ويختبرونه في مكان العمل.
+REVIEWED_AR: يقدم نبض الموظفين في الخليج رؤية واقعية لتوجهات القوى العاملة في المنطقة، بما يساعد القادة على فهم ما يفكر فيه الموظفون ويشعرون به ويختبرونه في مكان العمل.
+
+ID: download.success_contact_intro
+Context: Hidden success state paragraph
+EN: Interested in discussing the findings or learning more about the research? Get in touch with the EXE team.
+AR: هل ترغب في مناقشة النتائج أو معرفة المزيد عن الدراسة؟ تواصل مع فريق Employee Experience Exchange.
+REVIEWED_AR: هل ترغب في مناقشة النتائج أو معرفة المزيد عن الدراسة؟ تواصل مع فريق Employee Experience Exchange.
+
+ID: download.success_contact_cta
+Context: Hidden success state contact button
+EN: Contact us
+AR: تواصل معنا
+REVIEWED_AR: تواصل معنا
+
+ID: community.heading
+Context: Community band heading
+EN: Join the community
+AR: انضم إلينا
+REVIEWED_AR: انضم إلينا
+
+ID: community.cta
+Context: Community band button
+EN: Join now
+AR: انضم الآن
+REVIEWED_AR: انضم الآن
+
+ID: footer.registered
+Context: Footer legal text
+EN: Registered: EXE Consulting LLC
+AR: مسجلة باسم: EXE Consulting LLC
+REVIEWED_AR: مسجلة باسم: EXE Consulting LLC
+
+ID: script.sending
+Context: Hidden fallback form submitting text
+EN: Sending...
+AR: جارٍ الإرسال...
+REVIEWED_AR: جارٍ الإرسال...
+
